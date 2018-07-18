@@ -28,6 +28,8 @@ namespace BugReport.Nhibernate.FetchMany
 
             var testQueryExecutor = serviceProvider.GetService<TestQueryExecutor>();
             testQueryExecutor.PerformTest();
+
+            Console.ReadLine();
         }
 
         private static void ConfigureServices(IServiceCollection services)
