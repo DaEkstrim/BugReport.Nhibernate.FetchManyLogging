@@ -29,7 +29,7 @@ GO
 PRINT "Populating test data"
 ------------------------------------------------------------
 SET IDENTITY_INSERT [User].[User] ON
-INSERT INTO [User].[User]([Id],[IsDeleted],[Status],[BrandId])
+INSERT INTO [User].[User]([Id],[IsDeleted])
      VALUES (1,0)
 SET IDENTITY_INSERT [User].[User] OFF
 ------------------------------------------------------------
